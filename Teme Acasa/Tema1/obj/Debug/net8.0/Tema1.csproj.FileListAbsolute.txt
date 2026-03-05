@@ -1,0 +1,14 @@
+D:\Piu\Teme Acasa\Tema1\bin\Debug\net8.0\Tema1.exe
+D:\Piu\Teme Acasa\Tema1\bin\Debug\net8.0\Tema1.deps.json
+D:\Piu\Teme Acasa\Tema1\bin\Debug\net8.0\Tema1.runtimeconfig.json
+D:\Piu\Teme Acasa\Tema1\bin\Debug\net8.0\Tema1.dll
+D:\Piu\Teme Acasa\Tema1\bin\Debug\net8.0\Tema1.pdb
+D:\Piu\Teme Acasa\Tema1\obj\Debug\net8.0\Tema1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Piu\Teme Acasa\Tema1\obj\Debug\net8.0\Tema1.AssemblyInfoInputs.cache
+D:\Piu\Teme Acasa\Tema1\obj\Debug\net8.0\Tema1.AssemblyInfo.cs
+D:\Piu\Teme Acasa\Tema1\obj\Debug\net8.0\Tema1.csproj.CoreCompileInputs.cache
+D:\Piu\Teme Acasa\Tema1\obj\Debug\net8.0\Tema1.dll
+D:\Piu\Teme Acasa\Tema1\obj\Debug\net8.0\refint\Tema1.dll
+D:\Piu\Teme Acasa\Tema1\obj\Debug\net8.0\Tema1.pdb
+D:\Piu\Teme Acasa\Tema1\obj\Debug\net8.0\Tema1.genruntimeconfig.cache
+D:\Piu\Teme Acasa\Tema1\obj\Debug\net8.0\ref\Tema1.dll
