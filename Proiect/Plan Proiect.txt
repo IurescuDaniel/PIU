@@ -1,4 +1,4 @@
-Tema aleasa: Test de evaluare
+Tema aleasa: Test de evaluare.
 
 Plan sturctura:
 Utilizarea unui meniu pentru alegerea materiei. 5 Materi Posibile fiecare cu 10 de intrebari.
