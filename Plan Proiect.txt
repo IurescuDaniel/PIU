@@ -1,0 +1,53 @@
+Tema aleasa: Test de evaluare
+
+Plan sturctura:
+Utilizarea unui meniu pentru alegerea materiei. 5 Materi Posibile fiecare cu 10 de intrebari.
+Materi:
+Informatica
+Matematica
+Geografie
+Biologie
+Istorie
+
+Testul va fi de tip grila cu 4 raspunsuri posibile numerotate a,b,c,d.
+Fiecare raspuns va fi notat cu 1p.
+Intrebarile nu vor fi mereu in ordine ele vor aparea random.
+
+Realizare structura:
+
+Clasa Intrebare:
+
+Membri:
+textIntrebare – textul intrebarii
+varianta_A – raspuns posibil
+varianta_B – raspuns posibil
+varianta_C – raspuns posibil
+varianta_D – raspuns posibil
+raspunsCorect – litera răspunsului corect
+
+Metode:
+afiseazaIntrebare() – afișează întrebarea și variantele
+verificaRaspuns() – verifică dacă răspunsul utilizatorului este corect
+
+
+Clasa Materie:
+Membri:
+numeMaterie - numele materiei
+listaIntrebari - lista cu intrebari
+scor - scorul final obtinut
+
+Metode:
+StartTest()
+afiseazaIntrebareCurenta()
+calculeazaScor()
+afiseazaRezultatFinal()
+
+Clase derivata din Materie:
+Informatica
+Matematica
+Geografie
+Biologie
+Istorie
+
+
+
