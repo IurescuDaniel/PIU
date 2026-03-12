@@ -2,7 +2,7 @@
 
 class Meniu
 {
-    static void Main(string[] args)
+    static void Main()
     {
         Console.WriteLine("===== TEST DE EVALUARE =====");
         Console.WriteLine("1. Informatica");
@@ -13,37 +13,43 @@ class Meniu
 
         Console.Write("Alege materia: ");
 
-        int alegere = int.Parse(Console.ReadLine());
+        string alegereInput = Console.ReadLine();
+        int.TryParse(alegereInput, out int alegere);
 
-        Materie test = null;
+
+        Materie materiaAleasa = null;
 
         switch (alegere)
         {
             case 1:
-                test = new Informatica();
+                materiaAleasa = new Informatica();
                 break;
+
 
             case 2:
-                test = new Matematica();
+                materiaAleasa = new Matematica();
                 break;
+
 
             case 3:
-                test = new Geografie();
+                materiaAleasa = new Geografie();
                 break;
+
 
             case 4:
-                test = new Biologie();
+                materiaAleasa = new Biologie();
                 break;
 
+
             case 5:
-                test = new Istorie();
+                materiaAleasa = new Istorie();
                 break;
 
             default:
-                Console.WriteLine("Alegere invalida!");
+                Console.WriteLine();
                 return;
         }
-
-        test.StartTest();
+        materiaAleasa.StartTest();
+        return;
     }
 }

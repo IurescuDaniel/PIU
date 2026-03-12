@@ -1,0 +1,15 @@
+D:\Piu\PIU\Proiect\Proiect\obj\Debug\net8.0\Proiect.GeneratedMSBuildEditorConfig.editorconfig
+D:\Piu\PIU\Proiect\Proiect\obj\Debug\net8.0\Proiect.AssemblyInfoInputs.cache
+D:\Piu\PIU\Proiect\Proiect\obj\Debug\net8.0\Proiect.AssemblyInfo.cs
+D:\Piu\PIU\Proiect\Proiect\obj\Debug\net8.0\Proiect.csproj.CoreCompileInputs.cache
+D:\Piu\PIU\Proiect\Proiect\obj\Debug\net8.0\Proiect.sourcelink.json
+D:\Piu\PIU\Proiect\Proiect\bin\Debug\net8.0\Proiect.exe
+D:\Piu\PIU\Proiect\Proiect\bin\Debug\net8.0\Proiect.deps.json
+D:\Piu\PIU\Proiect\Proiect\bin\Debug\net8.0\Proiect.runtimeconfig.json
+D:\Piu\PIU\Proiect\Proiect\bin\Debug\net8.0\Proiect.dll
+D:\Piu\PIU\Proiect\Proiect\bin\Debug\net8.0\Proiect.pdb
+D:\Piu\PIU\Proiect\Proiect\obj\Debug\net8.0\Proiect.dll
+D:\Piu\PIU\Proiect\Proiect\obj\Debug\net8.0\refint\Proiect.dll
+D:\Piu\PIU\Proiect\Proiect\obj\Debug\net8.0\Proiect.pdb
+D:\Piu\PIU\Proiect\Proiect\obj\Debug\net8.0\Proiect.genruntimeconfig.cache
+D:\Piu\PIU\Proiect\Proiect\obj\Debug\net8.0\ref\Proiect.dll
