@@ -13,26 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|d:\\piu\\piu\\proiect\\proiect\\intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|solutionrelative:intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|d:\\piu\\piu\\proiect\\proiect\\informatica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|solutionrelative:informatica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|d:\\piu\\piu\\proiect\\proiect\\matematica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|solutionrelative:matematica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|d:\\piu\\piu\\proiect\\proiect\\istorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|solutionrelative:istorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|d:\\piu\\piu\\proiect\\proiect\\biologie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|solutionrelative:biologie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|d:\\piu\\piu\\proiect\\proiect\\geografie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|solutionrelative:geografie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,73 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Istorie.cs",
-              "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\Proiect\\Istorie.cs",
-              "RelativeDocumentMoniker": "Istorie.cs",
-              "ToolTip": "D:\\Piu\\PIU\\Proiect\\Proiect\\Istorie.cs",
-              "RelativeToolTip": "Istorie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T18:41:33.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Biologie.cs",
-              "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\Proiect\\Biologie.cs",
-              "RelativeDocumentMoniker": "Biologie.cs",
-              "ToolTip": "D:\\Piu\\PIU\\Proiect\\Proiect\\Biologie.cs",
-              "RelativeToolTip": "Biologie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T18:40:59.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Geografie.cs",
-              "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\Proiect\\Geografie.cs",
-              "RelativeDocumentMoniker": "Geografie.cs",
-              "ToolTip": "D:\\Piu\\PIU\\Proiect\\Proiect\\Geografie.cs",
-              "RelativeToolTip": "Geografie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T18:40:32.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Matematica.cs",
-              "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\Proiect\\Matematica.cs",
-              "RelativeDocumentMoniker": "Matematica.cs",
-              "ToolTip": "D:\\Piu\\PIU\\Proiect\\Proiect\\Matematica.cs",
-              "RelativeToolTip": "Matematica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T18:40:12.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Informatica.cs",
-              "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\Proiect\\Informatica.cs",
-              "RelativeDocumentMoniker": "Informatica.cs",
-              "ToolTip": "D:\\Piu\\PIU\\Proiect\\Proiect\\Informatica.cs",
-              "RelativeToolTip": "Informatica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T18:39:39.396Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -117,7 +32,7 @@
               "RelativeDocumentMoniker": "Intrebare.cs",
               "ToolTip": "D:\\Piu\\PIU\\Proiect\\Proiect\\Intrebare.cs",
               "RelativeToolTip": "Intrebare.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T18:36:28.313Z",
               "EditorCaption": ""
@@ -130,7 +45,7 @@
               "RelativeDocumentMoniker": "Materie.cs",
               "ToolTip": "D:\\Piu\\PIU\\Proiect\\Proiect\\Materie.cs",
               "RelativeToolTip": "Materie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T18:37:54.082Z",
               "EditorCaption": ""
@@ -143,7 +58,7 @@
               "RelativeDocumentMoniker": "Meniu.cs",
               "ToolTip": "D:\\Piu\\PIU\\Proiect\\Proiect\\Meniu.cs",
               "RelativeToolTip": "Meniu.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAjwDMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAADwv7IAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T18:35:11.705Z",
               "EditorCaption": ""
