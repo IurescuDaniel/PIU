@@ -48,7 +48,6 @@
 
     public Intrebare()
     {
-        // Inițializăm proprietățile cu valori goale pentru a evita erori de tip null
         NumeMaterie = string.Empty;
         Text = string.Empty;
         A = string.Empty;
