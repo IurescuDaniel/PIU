@@ -1,0 +1,20 @@
+Informatica|3|Care structura de date functioneaza dupa principiul LIFO?|Coada|Lista|Stiva|Arbore|c
+Informatica|3|Ce returneaza operatorul modulo (%)?|Catul|Restul impartirii|Suma|Puterea|b
+Informatica|3|Care este complexitatea timp medie pentru QuickSort?|O(n)|O(n log n)|O(n^2)|O(1)|b
+Informatica|3|Ce cuvant cheie se foloseste pentru a mosteni o clasa in C#?|implements|extends|:|using|c
+Informatica|3|Ce este un 'pointer' in limbaje precum C++?|O variabila care retine o adresa de memorie|Un tip de date boolean|O functie recursiva|Un array de caractere|a
+Informatica|3|Care este unitatea minima de stocare a informatiei?|Byte|Bit|Kilobyte|Word|b
+Informatica|3|Ce face metoda 'Dispose' intr-un program .NET?|Sterge baza de date|Elibereaza resursele neutilizate|Inchide calculatorul|Creeaza un obiect nou|b
+Informatica|3|In ce an a fost lansat limbajul de programare C#?|1995|1998|2000|2005|c
+Informatica|3|Care din urmatoarele nu este un limbaj de programare?|Python|Java|HTML|C++|c
+Informatica|3|Ce inseamna 'encapsulation' (incapsulare) in OOP?|Mostenirea metodelor|Ascunderea detaliilor interne ale unui obiect|Transformarea codului in binar|Executarea mai multor fire de executie|b
+Matematica|2|Care este derivata functiei f(x) = x^2?|2x|x|x^3|2|a
+Matematica|2|Cat este sin(30 grade)?|1/2|sqrt(3)/2|0|1|a
+Matematica|2|Care este solutia ecuatiei log2(x) = 3?|6|9|8|5|c
+Matematica|2|Cat este integrala din f(x)=1 pe intervalul [0,5]?|0|1|5|10|c
+Matematica|2|Care este valoarea numarului e (aproximativ)?|3.14|1.41|2.71|1.61|c
+Matematica|2|Cate grade are un unghi drept?|45|90|180|360|b
+Matematica|2|Care este formula pentru volumul cubului cu latura a?|a^2|6a|a^3|4a|c
+Matematica|2|Ce reprezinta f'(x) intr-un punct?|Aria sub curba|Panta tangentei|Intersectia cu Ox|Valoarea functiei|b
+Matematica|2|Care este determinantul matricei unitate de ordin 2?|0|1|2|-1|b
+Matematica|2|Daca un triunghi are laturile 3, 4 si 5, ce fel de triunghi este?|Echilateral|Isoscel|Dreptunghic|Obtuzunghic|c

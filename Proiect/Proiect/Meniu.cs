@@ -7,10 +7,25 @@ using static Materie;
 class Program
 {
     static List<Materie> materii = new List<Materie>();
+    static NivelStocareDate.IStocareData adminMaterii;
 
     static void Main()                                  // Meniu
     {
+        string numeFisier = "Materii.txt";
+        adminMaterii = new NivelStocareDate.AdministrareMaterii_FisierText(numeFisier);
+        materii = adminMaterii.GetMaterii();
         CitesteDateInitiale();
+
+        if (materii.Count == 0)
+        {
+            Console.WriteLine("Fisier gol.");
+            CitesteDateInitiale();
+            foreach (var m in materii)
+            {
+                adminMaterii.AddMaterie(m);
+            }
+        }
+
         bool ok = true;
         while (ok)
         {
@@ -18,6 +33,8 @@ class Program
             Console.WriteLine("1. Afiseaza materia dorita");
             Console.WriteLine("2. Cauta materie dupa nume");
             Console.WriteLine("3. Incepe test");
+            Console.WriteLine("4. Citire din fisier");
+
             Console.WriteLine("0. Iesire");
             Console.Write("Alegere: ");
 
@@ -34,7 +51,9 @@ class Program
                 case "3":
                     SelecteazaSiIncepeTest();
                     break;
-
+                case "4":
+                    CitireMateriFisier();
+                    break;
                 case "0":
                     ok = false;
                     break;
@@ -48,30 +67,6 @@ class Program
     }
     static void CitesteDateInitiale()
     {
-        var info = new Materie("Informatica") { Dificultate = DificultateMaterie.Dificil };              //Informatica
-        info.Intrebari.Add(new Intrebare
-        {
-            Text = "Ce inseamna OOP?",
-            A = "Object Oriented Programming",
-            B = "Open Office Platform",
-            C = "Online Output Protocol",
-            D = "None",
-            RaspunsCorect = 'a'
-        });
-        materii.Add(info);
-
-        var mate = new Materie("Matematica") { Dificultate = DificultateMaterie.Mediu };              // Matematica
-        mate.Intrebari.Add(new Intrebare
-        {
-           Text = "Care este formula ariei cercului?", 
-            A = "A = 2πr", 
-            B = "A = πr^2", 
-            C = "A = πd", 
-            D = "A = 4πr^2", 
-            RaspunsCorect = 'b' 
-        });
-        materii.Add(mate);
-
         var bio = new Materie("Biologie") { Dificultate = DificultateMaterie.Usor };                // Biologie
         bio.Intrebari.Add(new Intrebare
         { 
@@ -192,10 +187,23 @@ class Program
     {
         Console.Write("Nume materie: ");
         string input = Console.ReadLine().ToLower();
-        var rezultat = materii.FirstOrDefault(m => m.Nume.ToLower().Contains(input));
+        var rezultat = materii.FirstOrDefault(m => m != null && m.Nume != null && m.Nume.ToLower().Contains(input));
         if (rezultat != null)
             Console.WriteLine($"Gasit: {rezultat.Nume} cu {rezultat.Intrebari.Count} intrebari");
         else
             Console.WriteLine("Materia nu a fost gasita.");
     }
+    static void CitireMateriFisier()
+    {
+        List<Materie> deAfisat = adminMaterii.GetMaterii();
+
+        if (deAfisat.Count == 0)
+        {
+            Console.WriteLine("Nu exista date in fisier.");
+            return;
+        }
+        else
+            Console.WriteLine("Datele au fost citite din Fisier");
+    }
+
 }
