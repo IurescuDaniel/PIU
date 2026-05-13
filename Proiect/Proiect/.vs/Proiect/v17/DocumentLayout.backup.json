@@ -9,8 +9,11 @@
       "AbsoluteMoniker": "D:0:0:{24F5F3CD-19AA-48A3-9927-1EAEC8348312}|..\\WpfApp\\WpfApp.csproj|d:\\piu\\piu\\proiect\\wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|D:\\Piu\\PIU\\Proiect\\Proiect\\bin\\Debug\\net8.0\\Materii.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:bin\\Debug\\net8.0\\Materii.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{24F5F3CD-19AA-48A3-9927-1EAEC8348312}|..\\WpfApp\\WpfApp.csproj|d:\\piu\\piu\\proiect\\wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|d:\\piu\\piu\\proiect\\proiect\\meniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|solutionrelative:meniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|d:\\piu\\piu\\proiect\\proiect\\materie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +30,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|d:\\piu\\piu\\proiect\\proiect\\intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|solutionrelative:intrebare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|d:\\piu\\piu\\proiect\\proiect\\meniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8603CADB-C212-4B1E-9DD5-6384B518D220}|Proiect.csproj|solutionrelative:meniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,14 +44,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Materii.txt",
-              "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\Proiect\\bin\\Debug\\net8.0\\Materii.txt",
-              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\Materii.txt",
-              "ToolTip": "D:\\Piu\\PIU\\Proiect\\Proiect\\bin\\Debug\\net8.0\\Materii.txt",
-              "RelativeToolTip": "bin\\Debug\\net8.0\\Materii.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-05-13T16:31:54.129Z",
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\WpfApp\\App.xaml",
+              "RelativeDocumentMoniker": "..\\WpfApp\\App.xaml",
+              "ToolTip": "D:\\Piu\\PIU\\Proiect\\WpfApp\\App.xaml",
+              "RelativeToolTip": "..\\WpfApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-13T18:08:36.849Z",
               "EditorCaption": ""
             },
             {
@@ -75,26 +73,27 @@
               "RelativeDocumentMoniker": "..\\WpfApp\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Piu\\PIU\\Proiect\\WpfApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "..\\WpfApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAwGYAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwGMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T12:56:16.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Meniu.cs",
               "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\Proiect\\Meniu.cs",
               "RelativeDocumentMoniker": "Meniu.cs",
               "ToolTip": "D:\\Piu\\PIU\\Proiect\\Proiect\\Meniu.cs",
               "RelativeToolTip": "Meniu.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAYwNAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAuwNAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T12:38:23.8Z"
+              "WhenOpened": "2026-05-13T12:38:23.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Materie.cs",
               "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\Proiect\\Materie.cs",
               "RelativeDocumentMoniker": "Materie.cs",
@@ -106,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IStocareDate.cs",
               "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\Proiect\\IStocareDate.cs",
               "RelativeDocumentMoniker": "IStocareDate.cs",
@@ -118,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Intrebare.cs",
               "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\Proiect\\Intrebare.cs",
               "RelativeDocumentMoniker": "Intrebare.cs",
@@ -130,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AdministrareMaterii_FisierText.cs",
               "DocumentMoniker": "D:\\Piu\\PIU\\Proiect\\Proiect\\AdministrareMaterii_FisierText.cs",
               "RelativeDocumentMoniker": "AdministrareMaterii_FisierText.cs",
