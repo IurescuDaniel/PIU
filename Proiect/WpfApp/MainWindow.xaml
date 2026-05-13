@@ -38,7 +38,9 @@
                        HorizontalContentAlignment="Center" 
                        Margin="0,0,0,20"/>
 
-                <Label Content="Alege materia:" FontSize="13" Foreground="{StaticResource CuloareText}"/>
+                <Label Content="Alege materia:" 
+                       FontSize="13" 
+                       Foreground="{StaticResource CuloareText}"/>
                 <ComboBox x:Name="cmbMaterii" 
                           Height="32" 
                           Margin="0,0,0,15"
@@ -46,9 +48,24 @@
                           IsTextSearchEnabled="True"
                           Foreground="Black"
                           Background="White"/>
-
+                
+                <Label Content="{Binding ElementName=cmbMaterii,
+                       Path=Items.Count, 
+                       StringFormat='Număr materii disponibile: {0}'}" 
+                       FontWeight="Bold" 
+                       Foreground="Blue"/>
+                   <Label Content="Editează numele materiei selectate:"/>
+                
+                    <TextBox Text="{Binding SelectedItem, 
+                             ElementName=cmbMaterii, 
+                             Mode=TwoWay, 
+                             UpdateSourceTrigger=PropertyChanged}" 
+                             Height="30" 
+                             Width="350"/>
+                
                 <Label Content="Data examenului:" 
-                       FontSize="13" Foreground="{StaticResource CuloareText}"/>
+                       FontSize="13" 
+                       Foreground="{StaticResource CuloareText}"/>
                 <DatePicker x:Name="dtpDataExamen" 
                             Margin="0,0,0,15" 
                             Height="32"

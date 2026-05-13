@@ -1,4 +1,5 @@
-﻿public class Intrebare
+﻿
+public class Intrebare
 {
 
     private const char SEPARATOR_PRINCIPAL = '|';
@@ -34,17 +35,16 @@
 
     public string ConversieLaSirPtFisier(string numeMaterie, int dificultate)
     {
-        // Indicii trebuie să fie de la 0 la 7 pentru cei 8 parametri trimiși după șirul format
         return string.Format("{1}{0}{2}{0}{3}{0}{4}{0}{5}{0}{6}{0}{7}{0}{8}",
-            SEPARATOR_PRINCIPAL, // {0}
-            numeMaterie,         // {1}
-            dificultate,         // {2}
-            Text,                // {3}
-            A,                   // {4}
-            B,                   // {5}
-            C,                   // {6}
-            D,                   // {7}
-            RaspunsCorect);      // {8}
+            SEPARATOR_PRINCIPAL, 
+            numeMaterie,         
+            dificultate,         
+            Text,                
+            A,                   
+            B,                   
+            C,                   
+            D,                   
+            RaspunsCorect);      
     }
 
     public Intrebare()
