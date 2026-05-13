@@ -1,0 +1,129 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Examen cultura generala - Proiect" Height="400" Width="600"
+        WindowStartupLocation="CenterScreen" WindowState="Maximized"
+        WindowStyle="ThreeDBorderWindow">
+
+    <Window.Resources>
+        <SolidColorBrush x:Key="CuloareFundal" Color="#F0F4F8"/>
+        <SolidColorBrush x:Key="CuloareText"   Color="#2C3E50"/>
+        <SolidColorBrush x:Key="CuloareVerde"  Color="#27AE60"/>
+        <SolidColorBrush x:Key="CuloareGri"    Color="#BDC3C7"/>
+    </Window.Resources>
+
+    <Grid Background="{StaticResource CuloareFundal}">
+
+        <!-- Titlu -->
+        <StackPanel VerticalAlignment="Top"
+                    HorizontalAlignment="Center"
+                    Margin="0,30,0,0">
+            <Label x:Name="Examen"
+                   FontSize="26"
+                   FontFamily="Segoe UI"
+                   FontWeight="SemiBold"
+                   Foreground="{StaticResource CuloareText}"
+                   HorizontalContentAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Formular -->
+        <StackPanel VerticalAlignment="Top"
+                    HorizontalAlignment="Center"
+                    Margin="0,90,0,0"
+                    Width="300">
+
+            <Label x:Name="lblNumeMaterie"
+                   Content="Nume materie"
+                   FontFamily="Segoe UI"
+                   FontSize="13"
+                   Foreground="{StaticResource CuloareText}"
+                   Padding="0,0,0,4"/>
+            <TextBox x:Name="txtNumeMaterie"
+                     FontFamily="Segoe UI"
+                     FontSize="13"
+                     Height="32"
+                     Padding="6,4"
+                     BorderBrush="#CCC"
+                     BorderThickness="1"
+                     Background="White"
+                     TextChanged="txtNumeMaterie_TextChanged"/>
+            <TextBlock x:Name="errNumeMaterie"
+                       Text=""
+                       Foreground="Red"
+                       Visibility="Collapsed"
+                       FontSize="10"
+                       Margin="0,3,0,0"/>
+
+            <Label x:Name="lblDificultate"
+                   Content="Dificultate"
+                   FontFamily="Segoe UI"
+                   FontSize="13"
+                   Foreground="{StaticResource CuloareText}"
+                   Padding="0,12,0,4"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,6">
+                <TextBlock Text="1 Usor"   
+                           Foreground="#27AE60" 
+                           FontSize="11" 
+                           FontFamily="Segoe UI"
+                           FontWeight="SemiBold" 
+                           Margin="0,0,12,0"/>
+                <TextBlock Text="2 Mediu"  
+                           Foreground="#E67E22" 
+                           FontSize="11" 
+                           FontFamily="Segoe UI" 
+                           FontWeight="SemiBold" 
+                           Margin="0,0,12,0"/>
+                <TextBlock Text="3 Greu"   
+                           Foreground="#E74C3C" 
+                           FontSize="11" 
+                           FontFamily="Segoe UI" 
+                           FontWeight="SemiBold"/>
+            </StackPanel>
+
+            <TextBox x:Name="txtDificultate"
+                     FontFamily="Segoe UI"
+                     FontSize="13"
+                     Height="32"
+                     Padding="6,4"
+                     BorderBrush="#CCC"
+                     BorderThickness="1"
+                     Background="White"
+                     TextChanged="txtDificultate_TextChanged"/>
+            
+            <TextBlock x:Name="errDificultate"
+                       Text=""
+                       Foreground="Red"
+                       Visibility="Collapsed"
+                       FontSize="10"
+                       Margin="0,3,0,0"/>
+            
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        Margin="0,24,0,0">
+                
+                <Button x:Name="btnSalveaza"
+                        Content="_Salveaza"
+                        Width="120" Height="34"
+                        FontFamily="Segoe UI"
+                        FontSize="13"
+                        Background="{StaticResource CuloareVerde}"
+                        Foreground="White"
+                        BorderThickness="0"
+                        Click="btnSalveaza_Click"/>
+                
+                <Button x:Name="btnReset"
+                        Content="_Reset"
+                        Width="100" Height="34"
+                        FontFamily="Segoe UI"
+                        FontSize="13"
+                        Background="{StaticResource CuloareGri}"
+                        Foreground="White"
+                        BorderThickness="0"
+                        Margin="12,0,0,0"
+                        Click="btnReset_Click"/>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>

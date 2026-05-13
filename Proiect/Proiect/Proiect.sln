@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		bin\Debug\net8.0\Materii.txt = bin\Debug\net8.0\Materii.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "..\WpfApp\WpfApp.csproj", "{24F5F3CD-19AA-48A3-9927-1EAEC8348312}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{8603CADB-C212-4B1E-9DD5-6384B518D220}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8603CADB-C212-4B1E-9DD5-6384B518D220}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8603CADB-C212-4B1E-9DD5-6384B518D220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F5F3CD-19AA-48A3-9927-1EAEC8348312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F5F3CD-19AA-48A3-9927-1EAEC8348312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F5F3CD-19AA-48A3-9927-1EAEC8348312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F5F3CD-19AA-48A3-9927-1EAEC8348312}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
