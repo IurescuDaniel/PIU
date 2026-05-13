@@ -38,35 +38,24 @@
                        HorizontalContentAlignment="Center" 
                        Margin="0,0,0,20"/>
 
-                <Label x:Name="lblNumeMaterie" 
-                       Content="Alege materia" 
-                       FontSize="13" Foreground="{StaticResource CuloareText}"/>
-                <StackPanel x:Name="panelMaterii" 
-                            Margin="0,0,0,15">
-                    <RadioButton x:Name="rbIstorie" 
-                                 Content="Istorie" 
-                                 GroupName="Materii"
-                                 IsChecked="True" Margin="5"/>
-                    <RadioButton x:Name="rbGeografie" 
-                                 Content="Geografie" 
-                                 GroupName="Materii" 
-                                 Margin="5"/>
-                    <RadioButton x:Name="rbBiologie"
-                                 Content="Biologie" 
-                                 GroupName="Materii"
-                                 Margin="5"/>
-                    <RadioButton x:Name="rbInformatica"
-                                 Content="Informatica" 
-                                 GroupName="Materii" 
-                                 Margin="5"/>
-                    <RadioButton x:Name="rbMatematica"
-                                 Content="Matematica"
-                                 GroupName="Materii" 
-                                 Margin="5"/>
-                </StackPanel>
+                <Label Content="Alege materia:" FontSize="13" Foreground="{StaticResource CuloareText}"/>
+                <ComboBox x:Name="cmbMaterii" 
+                          Height="32" 
+                          Margin="0,0,0,15"
+                          IsEditable="True" 
+                          IsTextSearchEnabled="True"
+                          Foreground="Black"
+                          Background="White"/>
 
-                <Label x:Name="lblDificultate" 
-                       Content="Dificultate (1-3)" 
+                <Label Content="Data examenului:" 
+                       FontSize="13" Foreground="{StaticResource CuloareText}"/>
+                <DatePicker x:Name="dtpDataExamen" 
+                            Margin="0,0,0,15" 
+                            Height="32"
+                            SelectedDateFormat="Short"/>
+
+                <Label x:Name="lblDificultate"
+                       Content="Dificultate (1-3)"
                        FontSize="13" Foreground="{StaticResource CuloareText}"/>
                 <StackPanel Grid.Row="3"
                              Orientation="Horizontal" 

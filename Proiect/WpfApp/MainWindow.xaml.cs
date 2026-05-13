@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq; // Necesar pentru FirstOrDefault
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -25,43 +25,45 @@ namespace WpfApp
             Examen.Content = "Examen de cultura generala";
             adminMaterii = new AdministrareMaterii_FisierText(numeFisier);
             IncarcaMaterii();
-        }
+
+            cmbMaterii.ItemsSource = materii.Select(m => m.Nume).Distinct().ToList();
+
+            dtpDataExamen.SelectedDate = DateTime.Today; 
+}
 
         private void IncarcaMaterii()
         {
             materii = adminMaterii.GetMaterii();
         }
 
-        private string GetMaterieSelectata()
-        {
-            if (rbIstorie.IsChecked == true) return "Istorie";
-            if (rbGeografie.IsChecked == true) return "Geografie";
-            if (rbBiologie.IsChecked == true) return "Biologie";
-            if (rbInformatica.IsChecked == true) return "Informatica";
-            if (rbMatematica.IsChecked == true) return "Matematica";
-            return "Neselectat";
-        }
-
         private void btnSalveaza_Click(object sender, RoutedEventArgs e)
         {
             ResetareValidariVizuale();
-            string numeMaterieSelectata = GetMaterieSelectata();
+
+            string numeMaterieSelectata = cmbMaterii.SelectedItem as string;
             string valDificultate = txtDificultate.Text.Trim();
+
+            if (string.IsNullOrEmpty(numeMaterieSelectata))
+            {
+                MessageBox.Show("Vă rugăm să selectați o materie din listă!");
+                return;
+            }
 
             if (int.TryParse(valDificultate, out int dificultateInt))
             {
                 var gasit = materii.FirstOrDefault(m =>
-                    m.Nume.Trim().Equals(numeMaterieSelectata, StringComparison.OrdinalIgnoreCase) &&
+                    m.Nume.Equals(numeMaterieSelectata) &&
                     (int)m.Dificultate == dificultateInt);
 
-                if (gasit != null && gasit.Intrebari != null && gasit.Intrebari.Count > 0)
+                if (gasit != null)
                 {
                     materieSelectataPentruTest = gasit;
-                    MessageBox.Show($"Materia {numeMaterieSelectata} a fost pregătită!");
+                    DateTime dataAlesa = dtpDataExamen.SelectedDate ?? DateTime.Now; 
+            MessageBox.Show($"Materia {gasit.Nume} a fost pregătită!");
                 }
                 else
                 {
-                    MessageBox.Show("Nu există întrebări pentru această selecție în fișier.");
+                    MessageBox.Show("Nu există întrebări pentru această combinație de materie și dificultate.");
                 }
             }
         }
@@ -107,7 +109,6 @@ namespace WpfApp
             else if (rbC.IsChecked == true) raspunsDat = 'C';
             else if (rbD.IsChecked == true) raspunsDat = 'D';
 
-
             if (materieSelectataPentruTest.Intrebari[indexIntrebareCurenta].Verifica(raspunsDat))
                 scor++;
 
@@ -126,12 +127,11 @@ namespace WpfApp
             }
         }
 
-        private void btnReset_Click(object sender, RoutedEventArgs e) => ResetareAlegereMaterie();
-
-        private void ResetareAlegereMaterie()
+        private void btnReset_Click(object sender, RoutedEventArgs e)
         {
-            rbIstorie.IsChecked = true;
+            cmbMaterii.SelectedIndex = -1; 
             txtDificultate.Text = string.Empty;
+            dtpDataExamen.SelectedDate = DateTime.Today;
             ResetareValidariVizuale();
         }
 
@@ -158,11 +158,13 @@ namespace WpfApp
             panelCauta.Visibility = Visibility.Collapsed;
             panelAdauga.Visibility = Visibility.Visible;
         }
+
         private void btnAfisare_Click(object sender, RoutedEventArgs e)
         {
             lstRezultate.Items.Clear();
 
-            string numeCautat = txtCautaNume.Text.Trim();
+
+            string numeCautat = txtCautaNume?.Text.Trim() ?? "";
 
             int dificultateCautata = 1;
             if (rbCautaMediu.IsChecked == true) dificultateCautata = 2;
@@ -172,7 +174,7 @@ namespace WpfApp
                 m.Nume.Trim().Equals(numeCautat, StringComparison.OrdinalIgnoreCase) &&
                 (int)m.Dificultate == dificultateCautata);
 
-            if (materieGasita != null && materieGasita.Intrebari != null && materieGasita.Intrebari.Count > 0)
+            if (materieGasita != null && materieGasita.Intrebari != null)
             {
                 foreach (var intrebare in materieGasita.Intrebari)
                 {
@@ -181,7 +183,7 @@ namespace WpfApp
             }
             else
             {
-                lstRezultate.Items.Add("Nu s-au găsit întrebări pentru această selecție.");
+                lstRezultate.Items.Add("Nu s-au găsit întrebări.");
             }
         }
     }
