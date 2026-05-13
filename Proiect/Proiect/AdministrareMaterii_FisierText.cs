@@ -29,18 +29,27 @@ namespace NivelStocareDate
         public List<Materie> GetMaterii()
         {
             List<Materie> listaMaterii = new List<Materie>();
+
+            if (!File.Exists(numeFisier)) return listaMaterii;
+
             using (StreamReader sr = new StreamReader(numeFisier))
             {
                 string linie;
                 while ((linie = sr.ReadLine()) != null)
                 {
+                    if (string.IsNullOrWhiteSpace(linie)) continue; 
+
                     Intrebare i = new Intrebare(linie);
-                    var materieExistenta = listaMaterii.FirstOrDefault(m => m.Nume == i.NumeMaterie);
+
+                    var materieExistenta = listaMaterii.FirstOrDefault(m =>
+                        m.Nume == i.NumeMaterie &&
+                        (int)m.Dificultate == i.DificultateDinFisier);
 
                     if (materieExistenta == null)
                     {
                         Materie materieNoua = new Materie(i.NumeMaterie);
                         materieNoua.Dificultate = (DificultateMaterie)i.DificultateDinFisier;
+                        materieNoua.Intrebari = new List<Intrebare>(); 
                         materieNoua.Intrebari.Add(i);
                         listaMaterii.Add(materieNoua);
                     }

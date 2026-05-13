@@ -32,18 +32,19 @@
         return char.ToLower(r) == char.ToLower(RaspunsCorect);
     }
 
-    public string ConversieLaSirPtFisier(string numeMaterie,int dificultate)
+    public string ConversieLaSirPtFisier(string numeMaterie, int dificultate)
     {
+        // Indicii trebuie să fie de la 0 la 7 pentru cei 8 parametri trimiși după șirul format
         return string.Format("{1}{0}{2}{0}{3}{0}{4}{0}{5}{0}{6}{0}{7}{0}{8}",
-            SEPARATOR_PRINCIPAL,
-            numeMaterie,
-            dificultate,
-            (Text ?? "Necunoscut"),
-            (A ?? "Necunoscut"),
-            (B ?? "Necunoscut"),
-            (C ?? "Necunoscut"),
-            (D ?? "Necunoscut"),
-            RaspunsCorect);
+            SEPARATOR_PRINCIPAL, // {0}
+            numeMaterie,         // {1}
+            dificultate,         // {2}
+            Text,                // {3}
+            A,                   // {4}
+            B,                   // {5}
+            C,                   // {6}
+            D,                   // {7}
+            RaspunsCorect);      // {8}
     }
 
     public Intrebare()
@@ -61,17 +62,23 @@
     {
         string[] dateFisier = linieFisier.Split(SEPARATOR_PRINCIPAL);
 
-        if (dateFisier.Length > RASPUNS_CORECT)
+        if (dateFisier.Length >= 8)
         {
-            this.NumeMaterie = dateFisier[MATERIE];
-            this.Text = dateFisier[TEXT];
-            this.A = dateFisier[VARIANTA_A];
-            this.B = dateFisier[VARIANTA_B];
-            this.C = dateFisier[VARIANTA_C];
-            this.D = dateFisier[VARIANTA_D];
-            this.DificultateDinFisier = int.Parse(dateFisier[DIFICULTATE]);
-            this.Text = dateFisier[TEXT];
-            this.RaspunsCorect = dateFisier[RASPUNS_CORECT].Trim()[0];
+            this.NumeMaterie = dateFisier[MATERIE].Trim();
+
+            if (!int.TryParse(dateFisier[DIFICULTATE], out int dificultateVal))
+                dificultateVal = 1;
+
+            this.DificultateDinFisier = dificultateVal;
+
+            this.Text = dateFisier[TEXT].Trim();
+            this.A = dateFisier[VARIANTA_A].Trim();
+            this.B = dateFisier[VARIANTA_B].Trim();
+            this.C = dateFisier[VARIANTA_C].Trim();
+            this.D = dateFisier[VARIANTA_D].Trim();
+
+            string raspuns = dateFisier[RASPUNS_CORECT].Trim();
+            this.RaspunsCorect = (raspuns.Length > 0) ? raspuns[0] : 'A';
         }
     }
 

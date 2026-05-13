@@ -1,20 +1,150 @@
-Informatica|3|Care structura de date functioneaza dupa principiul LIFO?|Coada|Lista|Stiva|Arbore|c
-Informatica|3|Ce returneaza operatorul modulo (%)?|Catul|Restul impartirii|Suma|Puterea|b
-Informatica|3|Care este complexitatea timp medie pentru QuickSort?|O(n)|O(n log n)|O(n^2)|O(1)|b
-Informatica|3|Ce cuvant cheie se foloseste pentru a mosteni o clasa in C#?|implements|extends|:|using|c
-Informatica|3|Ce este un 'pointer' in limbaje precum C++?|O variabila care retine o adresa de memorie|Un tip de date boolean|O functie recursiva|Un array de caractere|a
-Informatica|3|Care este unitatea minima de stocare a informatiei?|Byte|Bit|Kilobyte|Word|b
-Informatica|3|Ce face metoda 'Dispose' intr-un program .NET?|Sterge baza de date|Elibereaza resursele neutilizate|Inchide calculatorul|Creeaza un obiect nou|b
-Informatica|3|In ce an a fost lansat limbajul de programare C#?|1995|1998|2000|2005|c
-Informatica|3|Care din urmatoarele nu este un limbaj de programare?|Python|Java|HTML|C++|c
-Informatica|3|Ce inseamna 'encapsulation' (incapsulare) in OOP?|Mostenirea metodelor|Ascunderea detaliilor interne ale unui obiect|Transformarea codului in binar|Executarea mai multor fire de executie|b
-Matematica|2|Care este derivata functiei f(x) = x^2?|2x|x|x^3|2|a
-Matematica|2|Cat este sin(30 grade)?|1/2|sqrt(3)/2|0|1|a
-Matematica|2|Care este solutia ecuatiei log2(x) = 3?|6|9|8|5|c
-Matematica|2|Cat este integrala din f(x)=1 pe intervalul [0,5]?|0|1|5|10|c
-Matematica|2|Care este valoarea numarului e (aproximativ)?|3.14|1.41|2.71|1.61|c
-Matematica|2|Cate grade are un unghi drept?|45|90|180|360|b
-Matematica|2|Care este formula pentru volumul cubului cu latura a?|a^2|6a|a^3|4a|c
-Matematica|2|Ce reprezinta f'(x) intr-un punct?|Aria sub curba|Panta tangentei|Intersectia cu Ox|Valoarea functiei|b
-Matematica|2|Care este determinantul matricei unitate de ordin 2?|0|1|2|-1|b
-Matematica|2|Daca un triunghi are laturile 3, 4 si 5, ce fel de triunghi este?|Echilateral|Isoscel|Dreptunghic|Obtuzunghic|c
+Istorie|1|In ce an a inceput Primul Razboi Mondial?|1914|1918|1939|1945|A
+Istorie|1|Cine a fost primul rege al Romaniei?|Carol I|Ferdinand I|Carol al II-lea|Mihai I|A
+Istorie|1|In ce an a avut loc Marea Unire?|1918|1859|1877|1944|A
+Istorie|1|Cine a descoperit America in 1492?|Cristofor Columb|Vasco da Gama|Magellan|Marco Polo|A
+Istorie|1|Unde au fost construite marile piramide?|Egipt|Grecia|Roma|Mesopotamia|A
+Istorie|1|Care a fost capitala Imperiului Roman?|Roma|Atena|Constantinopol|Cartagina|A
+Istorie|1|Cine a fost supranumit "Soarele Rasare" in Franta?|Ludovic al XIV-lea|Napoleon|Carol cel Mare|Ludovic al XVI-lea|A
+Istorie|1|Ce eveniment a inceput in 1789?|Revolutia Franceza|Razboiul de 100 ani|Cruciada I|Renasterea|A
+Istorie|1|Cine a condus Dacia in timpul razboaielor cu romanii?|Decebal|Burebista|Dromihete|Deceneu|A
+Istorie|1|In ce oras a fost asasinat Franz Ferdinand?|Sarajevo|Viena|Budapesta|Berlin|A
+Istorie|2|Cine a castigat la Podul Inalt?|Stefan cel Mare|Mircea cel Batran|Vlad Tepes|Matei Corvin|A
+Istorie|2|Ce tratat a incheiat oficial Primul Razboi Mondial?|Versailles|Trianon|Paris|Berlin|A
+Istorie|2|Cine a fost presedintele SUA in timpul Razboiului Civil?|Abraham Lincoln|George Washington|Thomas Jefferson|Andrew Jackson|A
+Istorie|2|In ce an a fost adoptata Magna Carta?|1215|1066|1348|1453|A
+Istorie|2|Cine a scris "Manifestul Partidului Comunist"?|Karl Marx|Lenin|Stalin|Trotsky|A
+Istorie|2|Care a fost durata Razboiului de 100 de ani?|116 ani|100 ani|99 ani|110 ani|A
+Istorie|2|Cine a condus expeditia care a facut inconjurul lumii?|Fernando Magellan|James Cook|Amerigo Vespucci|Hernan Cortes|A
+Istorie|2|In ce an a cazut Zidul Berlinului?|1989|1991|1987|1990|A
+Istorie|2|Cine a fost sotia tarului Nicolae al II-lea?|Alexandra Feodorovna|Ecaterina cea Mare|Maria Tereza|Ana de Austria|A
+Istorie|2|Unde a fost exilat Napoleon dupa infrangerea de la Waterloo?|Sfanta Elena|Elba|Corsica|Sicilia|A
+Istorie|3|In ce an a avut loc Batalia de la Hastings?|1066|1095|1214|1415|A
+Istorie|3|Cine a fost arhitectul "Solutiei Finale" in regimul nazist?|Reinhard Heydrich|Heinrich Himmler|Joseph Goebbels|Hermann Goring|A
+Istorie|3|Care a fost numele de nastere al lui Genghis Han?|Temujin|Kublai|Batu|Ogedei|A
+Istorie|3|In ce an a inceput Dinastia Meiji in Japonia?|1868|1853|1912|1603|A
+Istorie|3|Cine a fost vizirul lui Soliman Magnificul intre 1523-1536?|Pargali Ibrahim Pasa|Sokollu Mehmed|Rustem Pasa|Lutfi Pasa|A
+Istorie|3|Ce pact secret a impartit Europa de Est intre Germania si URSS?|Ribbentrop-Molotov|Munchen|Yalta|Potsdam|A
+Istorie|3|Cine a castigat Razboiul Peloponeziac?|Sparta|Atena|Corint|Teba|A
+Istorie|3|In ce an a fost fondat statul modern Israel?|1948|1947|1945|1950|A
+Istorie|3|Cine a fost ultimul imparat al Imperiului Romano-German?|Francisc al II-lea|Leopold al II-lea|Iosif al II-lea|Carol al VI-lea|A
+Istorie|3|Ce dinastie a condus China intre 1368 si 1644?|Ming|Qing|Tang|Song|A
+Geografie|1|Capitala Frantei?|Paris|Roma|Madrid|Berlin|A
+Geografie|1|Care este cel mai mare ocean de pe Pamant?|Pacific|Atlantic|Indian|Arctic|A
+Geografie|1|Pe ce continent se afla Fluviul Amazon?|America de Sud|Africa|Asia|Europa|A
+Geografie|1|Care este cel mai inalt munte din lume?|Everest|Mont Blanc|Kilimanjaro|Elbrus|A
+Geografie|1|Ce tara are forma unei cizme?|Italia|Grecia|Spania|Portugalia|A
+Geografie|1|Care este capitala Italiei?|Roma|Milano|Napoli|Venetia|A
+Geografie|1|In ce tara se afla Marele Zid Chinezesc?|China|Japonia|Coreea de Sud|Mongolia|A
+Geografie|1|Care este cel mai mare continent ca suprafata?|Asia|Africa|America de Nord|Antarctica|A
+Geografie|1|Ce limba se vorbeste oficial in Brazilia?|Portugheza|Spaniola|Franceza|Engleza|A
+Geografie|1|In ce oras se afla Statuia Libertatii?|New York|Washington D.C.|Los Angeles|Chicago|A
+Geografie|2|Care este capitala Canadei?|Ottawa|Toronto|Montreal|Vancouver|A
+Geografie|2|In ce munti se afla varful Moldoveanu?|Fagaras|Retezat|Parang|Apuseni|A
+Geografie|2|Care este cea mai lunga cale ferata din lume?|Transsiberianul|Orient Express|The Ghan|Blue Train|A
+Geografie|2|Prin ce oras trece fluviul Tamisa?|Londra|Paris|Praga|Viena|A
+Geografie|2|Care este cel mai mare stat din SUA ca suprafata?|Alaska|Texas|California|Montana|A
+Geografie|2|Ce tara este cunoscuta sub numele de "Tara Soarelui Rasare"?|Japonia|China|Thailanda|Vietnam|A
+Geografie|2|Unde se afla cel mai arid loc de pe Pamant (Atacama)?|Chile|Egipt|Australia|Namibia|A
+Geografie|2|Care este cel mai mare lac din Europa?|Ladoga|Onega|Geneva|Constance|A
+Geografie|2|Ce stramtoare separa Europa de Africa?|Gibraltar|Bosphorus|Dardanele|Magellan|A
+Geografie|2|In ce tara se afla orasul Marrakesh?|Maroc|Tunisia|Egipt|Algeria|A
+Geografie|3|Care este capitala statului Bhutan?|Thimphu|Kathmandu|Dhaka|Lhasa|A
+Geografie|3|Ce fluviu traverseaza cele mai multe tari?|Dunarea|Nilul|Amazonul|Mekong|A
+Geografie|3|In ce tara se afla depresiunea Afar?|Etiopia|Kenya|Sudan|Ciad|A
+Geografie|3|Care este cea mai joasa altitudine de pe uscat?|Marea Moarta|Valea Mortii|Lacul Assal|Caspica|A
+Geografie|3|Ce insula apartine Yemenului si are o flora endemica unica?|Socotra|Zanzibar|Mauritius|Seychelles|A
+Geografie|3|Care este cel mai mare oras din lume dupa populatie (zona metropolitana)?|Tokyo|Shanghai|Delhi|Mexico City|A
+Geografie|3|In ce munti se gaseste varful Aconcagua?|Anzi|Himalaya|Alpi|Stancosi|A
+Geografie|3|Care este moneda oficiala a Elvetiei?|Francul elvetian|Euro|Dolarul|Lira|A
+Geografie|3|Ce tara detine insula Groenlanda?|Danemarca|Norvegia|Canada|Islanda|A
+Geografie|3|Unde se afla punctul Nemo (cel mai izolat punct de pe mare)?|Oceanul Pacific|Oceanul Indian|Oceanul Atlantic|Oceanul Arctic|A
+Biologie|1|Care este unitatea structurala a vietii?|Celula|Atomi|Molecule|Tesuturi|A
+Biologie|1|Cate camere are inima omului?|Patru|Doua|Trei|Una|A
+Biologie|1|Ce proces folosesc plantele pentru a face hrana?|Fotosinteza|Respiratie|Digestie|Fermentatie|A
+Biologie|1|Cum se numeste pigmentul verde din plante?|Clorofila|Hemoglobina|Melanina|Caroten|A
+Biologie|1|Care este cel mai mare organ al corpului uman?|Pielea|Ficatul|Plamanii|Creierul|A
+Biologie|1|Ce gaz absorb plantele din atmosfera?|Dioxid de carbon|Oxigen|Azot|Hidrogen|A
+Biologie|1|Cate picioare are un paianjen?|Opt|Sase|Zece|Patru|A
+Biologie|1|Unde se afla stocat ADN-ul in celula?|Nucleu|Citoplasma|Ribozomi|Vacuola|A
+Biologie|1|Care este grupa sanguina numita "donator universal"?|O|A|B|AB|A
+Biologie|1|Ce mamifer poate zbura?|Liliacul|Veverita|Bufnita|Pinguinul|A
+Biologie|2|Care este "centrala energetica" a celulei?|Mitocondria|Aparatul Golgi|Lizozomul|Nucleul|A
+Biologie|2|Cate oase are corpul unui adult uman?|206|210|195|300|A
+Biologie|2|Ce vitamina este produsa de piele sub actiunea soarelui?|Vitamina D|Vitamina C|Vitamina A|Vitamina B12|A
+Biologie|2|Cum se numeste diviziunea celulara a celulelor somatice?|Mitoza|Meioza|Amitoza|Fisiune|A
+Biologie|2|Care este rolul principal al globulelor rosii?|Transportul oxigenului|Imunitatea|Coagularea|Digestia|A
+Biologie|2|Unde are loc digestia proteinelor in principal?|Stomac|Gura|Intestin gros|Esofag|A
+Biologie|2|Ce hormon regleaza nivelul zaharului in sange?|Insulina|Adrenalina|Tiroxina|Estrogen|A
+Biologie|2|Cate perechi de cromozomi are omul?|23|46|22|24|A
+Biologie|2|Cum se numesc vasele care duc sangele de la inima spre organe?|Artere|Vene|Capilare|Ventricule|A
+Biologie|2|Ce animal este considerat veriga de legatura intre reptile si pasari?|Archaeopteryx|Pterozaur|Dinozaur|Cormoran|A
+Biologie|3|Ce enzima din saliva descompune amidonul?|Amilaza|Pepsina|Lipaza|Tripsina|A
+Biologie|3|Cum se numeste procesul de formare a globulelor rosii?|Eritropoieaza|Hemostaza|Fagocitoza|Glicoliza|A
+Biologie|3|Care este baza azotata care inlocuieste timina in ARN?|Uracil|Guanina|Citozina|Adenina|A
+Biologie|3|Ce parte a creierului controleaza echilibrul si coordonarea?|Cerebelul|Bulbul rahidian|Talamusul|Cortexul|A
+Biologie|3|Cum se numeste stratul protector de grasime al neuronilor?|Teaca de mielina|Dendrita|Axon|Sinapsa|A
+Biologie|3|Ce tip de ARN aduce aminoacizii la ribozomi?|ARN de transfer|ARN mesager|ARN ribosomal|ARN nuclear|A
+Biologie|3|Unde se produce bila in corpul uman?|Ficat|Vezica biliara|Pancreas|Duoden|A
+Biologie|3|Cine a formulat legile ereditatii?|Gregor Mendel|Charles Darwin|Louis Pasteur|Watson si Crick|A
+Biologie|3|Ce este "Ciclul Krebs"?|Ciclul acidului citric|Glicoliza|Sinteza proteinelor|Fermentatia lactica|A
+Biologie|3|Care este organul responsabil pentru ultrafiltrarea sangelui?|Nefronul|Alveola|Vila intestinala|Lobul hepatic|A
+Informatica|1|Ce inseamna CPU?|Central Processing Unit|Computer Personal Unit|Central Print Unit|Control Panel Unit|A
+Informatica|1|Care este limbajul de baza al paginilor web?|HTML|Python|C++|Java|A
+Informatica|1|Ce dispozitiv este folosit pentru a tasta?|Tastatura|Mouse|Monitor|Imprimanta|A
+Informatica|1|Care este cea mai mica unitate de masura a datelor?|Bit|Byte|Kilobyte|Megabyte|A
+Informatica|1|Ce inseamna WWW?|World Wide Web|World Wide Window|Web Word Wide|Work Wide Web|A
+Informatica|1|Care este un sistem de operare popular?|Windows|Google|Office|Intel|A
+Informatica|1|Ce folosim pentru a naviga pe internet?|Browser|Antivirus|Calculator|Player|A
+Informatica|1|Care este extensia unui fisier text simplu?|.txt|.jpg|.exe|.mp3|A
+Informatica|1|Ce simbol se foloseste intr-o adresa de email?|@|#|$|&|A
+Informatica|1|Ce inseamna RAM?|Random Access Memory|Read And Memorize|Rapid Access Module|Remote Access Mode|A
+Informatica|2|In ce baza de numeratie lucreaza calculatoarele?|Binara|Zecimala|Hexazecimala|Octala|A
+Informatica|2|Care este operatorul pentru "modulo" in C++?|%|/|*|&|A
+Informatica|2|Ce structura de date foloseste principiul LIFO?|Stiva|Coada|Lista|Arbore|A
+Informatica|2|Ce protocol este folosit pentru transferul securizat de pagini web?|HTTPS|FTP|SMTP|IP|A
+Informatica|2|Care este rolul unui compilator?|Traduce codul sursa in cod masina|Executa programul|Cauta erori in retea|Stocheaza date|A
+Informatica|2|Ce tip de variabila retine un singur caracter in C++?|char|int|string|float|A
+Informatica|2|Ce inseamna SQL?|Structured Query Language|Simple Quick Logic|System Query List|Standard Quest Language|A
+Informatica|2|Cine este considerat parintele informaticii moderne?|Alan Turing|Bill Gates|Steve Jobs|Mark Zuckerberg|A
+Informatica|2|Cum se numeste eroarea dintr-un program informatic?|Bug|Virus|Glitch|Lag|A
+Informatica|2|Ce face functia "print" in Python?|Afiseaza mesajul pe ecran|Sterge ecranul|Creeaza un fisier|Inchide programul|A
+Informatica|3|Ce complexitate are sortarea Bubble Sort in cel mai rau caz?|O(n^2)|O(n)|O(log n)|O(n log n)|A
+Informatica|3|Ce inseamna conceptul de "Polimorfism" in OOP?|Capacitatea de a lua mai multe forme|Ascunderea datelor|Mostenirea claselor|Alocarea memoriei|A
+Informatica|3|Care este portul standard pentru protocolul HTTP?|80|443|21|25|A
+Informatica|3|Ce structura de date este folosita pentru BFS (Breadth-First Search)?|Coada|Stiva|Heap|Hash Table|A
+Informatica|3|Ce reprezinta "Deadlock" intr-un sistem de operare?|Blocarea reciproca a proceselor|Oprirea brusca a curentului|Un virus puternic|O parola uitata|A
+Informatica|3|In ce an a aparut limbajul C++?|1985|1972|1995|1990|A
+Informatica|3|Care este rezultatul operatiei pe biti 5 AND 3?|1|7|8|2|A
+Informatica|3|Ce algoritm este folosit pentru a gasi drumul minim intr-un graf?|Dijkstra|Kruskal|Prim|DFS|A
+Informatica|3|Ce reprezinta "encapsulation" (incapsularea) in Java?|Gruparea datelor si metodelor|Accesul public la date|Viteza de executie|Tipul de returnare|A
+Informatica|3|Cum se numeste un pointer care nu puncteaza nicaieri?|Null pointer|Void pointer|Dangling pointer|Wild pointer|A
+Matematica|1|Cat este 5*5?|25|20|30|15|A
+Matematica|1|Care este rezultatul operatiei 100 - 45?|55|65|45|50|A
+Matematica|1|Cate laturi are un hexagon?|Sase|Cinci|Opt|Patru|A
+Matematica|1|Cat este radical din 81?|9|8|7|10|A
+Matematica|1|Cat este 12 + 15 + 13?|40|30|50|45|A
+Matematica|1|Cat este 0 inmultit cu 1000?|0|1000|1|100|A
+Matematica|1|Care este suma unghiurilor unui triunghi?|180 grade|90 grade|360 grade|270 grade|A
+Matematica|1|Cat este jumatatea numarului 50?|25|20|15|30|A
+Matematica|1|Care este cel mai mic numar prim?|2|1|3|5|A
+Matematica|1|Cat este 10% din 200?|20|10|40|5|A
+Matematica|2|Care este aria unui patrat cu latura de 6?|36|24|12|48|A
+Matematica|2|Rezolva: 2x + 5 = 15. Cat este x?|5|10|2|15|A
+Matematica|2|Care este valoarea numarului "pi" aproximativ?|3.14|2.14|3.41|3.12|A
+Matematica|2|Cum se numeste latura opusa unghiului drept?|Ipotenuza|Cateta|Baza|Inaltime|A
+Matematica|2|Cat este 2 la puterea a 5-a?|32|16|64|10|A
+Matematica|2|Daca un triunghi are laturile 3, 4, 5, este un triunghi...?|Dreptunghic|Echilateral|Isoscel|Obtuzunghic|A
+Matematica|2|Care este rezultatul: (10 + 2) * 3 - 6?|30|36|12|24|A
+Matematica|2|Cate secunde are o ora?|3600|60|1200|360|A
+Matematica|2|Cat este cel mai mare divizor comun pentru 12 si 18?|6|2|3|4|A
+Matematica|2|Care este media aritmetica a numerelor 10, 20, 30?|20|15|25|60|A
+Matematica|3|Care este derivata functiei f(x) = x^2?|2x|x|2|x^3|A
+Matematica|3|Cat este logaritm in baza 2 din 64?|6|5|4|8|A
+Matematica|3|Care este formula pentru aria cercului?|pi * r^2|2 * pi * r|pi * d|pi * r^3|A
+Matematica|3|In ce an a fost demonstrata Marea Teorema a lui Fermat?|1994|1900|1850|2005|A
+Matematica|3|Cat este integrala din cos(x)?|sin(x)|-sin(x)|tg(x)|cos^2(x)|A
+Matematica|3|Care este determinantul matricei unitate de ordin 2?|1|0|2|-1|A
+Matematica|3|Cate solutii are ecuatia x^2 + 1 = 0 in multimea R?|Zero|Una|Doua|Infinite|A
+Matematica|3|Care este valoarea sin(90 grade)?|1|0|0.5|-1|A
+Matematica|3|Cat este suma primelor 100 de numere naturale?|5050|5000|5100|4950|A
+Matematica|3|Cine a inventat calculul diferential (independent)?|Newton si Leibniz|Euler|Gauss|Pythagoras|A
